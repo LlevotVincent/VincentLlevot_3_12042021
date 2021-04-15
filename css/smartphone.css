@@ -141,8 +141,10 @@ body{
 .far.fa-heart{
     float: right;
     padding: 20px 20px 0px 0px;
-    font-size: 25px;
-}
+    font-size: 25px;}
+
+
+
     /*fin restaurants*/
 
     /*début footer*/
@@ -173,6 +175,9 @@ body{
     font-family: roboto, sans-serif;}
 .footer__text i{
     margin-right: 10px;
+}
+#footer__box a{
+    color: inherit;
 }
 
     /*fin footer*/
