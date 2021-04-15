@@ -175,6 +175,7 @@ body{
     font-family: roboto, sans-serif;}
 .footer__text i{
     margin-right: 10px;
+    width: 20px;
 }
 #footer__box a{
     color: inherit;
