@@ -67,11 +67,15 @@ body{
     border-radius: 20px;
     margin-top: 20px;
 }
-.suggestion:active .menu__tarif{
+.suggestion:hover .menu__tarif{
     transform: translate(-70px);
+    transition: transform 1000ms ease;
 }
-.suggestion:active .menu__icone{
+.suggestion:hover .menu__icone{
     display: block;
+    transition: transform 1000ms ease;
+    transform: scalex(1);
+
 }
 .menu__sug{
     display: flex;
@@ -94,19 +98,22 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    width: 20%;
+    width: 40px;
     height: 70px;
     position: absolute;
     right: 10px;
 }
 .menu__icone{
-    display: none;
+    border-radius: 0 20px 20px 0;
     text-align: center;
-    width: 20%;
+    width: 60px;
     font-size: 40px;
     position: absolute;
     height: 70px;
-    right: 0px;
+    right: 30px;
+    background-color: #39a98e;
+    transform: scalex(0);
+    transform-origin: right;
 }
 
     /*début footer*/
