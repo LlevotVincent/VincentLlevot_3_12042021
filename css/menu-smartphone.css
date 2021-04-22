@@ -8,7 +8,7 @@ body{
     /*debut header*/
 
 
-#header{
+#header {
     width: 100%;
     height: 65px;
     display: flex;
@@ -17,32 +17,36 @@ body{
     box-shadow: 0px 4px 4px rgb(180, 180, 180);}
 .fas.fa-arrow-left{
     position: absolute;
-    left: 30px;}
+    left: 30px;
+    line-height: 0px;
+    font-size: 20px;
+    color: black inherit;}
 .header__logo{
     width: auto;
     height: 50%;
-    max-width: 100%;
-    object-fit: cover;}
+    max-width: 100%;}
 
     /*fin header*/
+
 
 #resto__img{
     height: 260px;
     width: auto;
-    z-index: 0;
+    z-index: 99;
     max-width: 100%;
 }
 
     /*menu*/
 
 #carte__menu{
-
+    position: relative;
     background-color: #f6f6f6;
     width: 100%;
     margin-top: -50px;
     padding-top: 20px;
+    padding-bottom: 100px;
     border-radius: 40px;
-    z-index: 1;
+    z-index: 999;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,10 +82,10 @@ body{
     transition: all 600ms ease;
     transform: scalex(1);
 }
-.suggestion:hover .menu__icone .menu__icone--container{
+.suggestion:hover .menu__icone .fas.fa-check-circle{
     display: block;
     transition: all 1000ms ease;
-}
+    transform: rotate(-360deg);}
 
 .menu__sug{
     display: flex;
@@ -94,41 +98,48 @@ body{
 .menu__sug h3{
     white-space: nowrap;
     font-weight: 900;
-    margin: 5px 20px 5px 20px;
+    margin: 5px 10px 5px 10px;
 }
 .menu__sug p{
     white-space: nowrap;
-    margin: 5px 20px 5px 20px;
+    margin: 5px 10px 5px 10px;
+
 }
 .menu__tarif{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    text-align: center;
     width: 60px;
-    height: 70px;
+    height: 100%;
     position: absolute;
     right: -10px;
     background-color: white;
     font-family: roboto, sans-serif;
+    font-weight: bold;
+    line-height: 105px;
 }
 
 .menu__icone{
     color: white;
     border-radius: 0 20px 20px 0;
     text-align: center;
-    padding-top: 12px;
     width: 60px;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     right: 0;
     height: 70px;
     background-color: #39a98e;
     transform: scalex(0);
-    transform: rotateX(180);
     transform-origin: right;
 }
-.menu__icone i{
-    transform: rotate(380°);
+.fas.fa-check-circle{
+    line-height: 70px;
+    transform: rotate(0deg);
+}
+
+.box_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
 #commander__btn{
     padding: 20px;
@@ -140,15 +151,13 @@ body{
     font-family: roboto, sans-serif;
     font-size: 16px;
     text-decoration: none;
-    transform: scale(1);
-    transition-property: transform;
-    transition-duration: 400ms;}
+    position: relative;
+}
 
     
     /*début footer*/
 
     #footer{
-
         background-color: #353535;
         display: flex;
         flex-direction: column;
