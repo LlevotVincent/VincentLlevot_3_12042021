@@ -20,7 +20,10 @@ body{
     left: 30px;
     line-height: 0px;
     font-size: 20px;
-    color: black inherit;}
+    color: black;}
+a{
+    color: inherit;
+}
 .header__logo{
     width: auto;
     height: 50%;
@@ -62,75 +65,79 @@ body{
 .repas__struct{
     font-family: roboto, sans-serif;
     font-weight: lighter;
+    border-bottom: 2px solid #99e2d0;
+    width: 40px;
 }
 .suggestion{
     display: flex;
     background-color: #fff;
-    overflow: hidden;
-    width: 100%;
     height: 70px;
     border-radius: 20px;
     margin-top: 20px;
     position: relative;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 4px #dadada;
 }
-.suggestion:hover .menu__tarif{
-    transform: translate(-70px);
-    transition: transform 600ms ease;
-}
-.suggestion:hover .menu__icone{
-    display: block;
-    transition: all 600ms ease;
-    transform: scalex(1);
-}
-.suggestion:hover .menu__icone .fas.fa-check-circle{
-    display: block;
-    transition: all 1000ms ease;
-    transform: rotate(-360deg);}
-
 .menu__sug{
     display: flex;
-    overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    width: 1fr;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-family: roboto, sans-serif;
+    flex: 1;
 }
 .menu__sug h3{
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-weight: 900;
     margin: 5px 10px 5px 10px;
 }
 .menu__sug p{
     white-space: nowrap;
-    margin: 5px 10px 5px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 10px 5px 10px;}
 
-}
+.suggestion:hover .menu__tarif{
+    transform: translate(-70px);
+    transition: transform 600ms ease;}
+.suggestion:hover .menu__icone{
+    display: block;
+    transition: all 600ms ease;
+    transform: scalex(1);}
+.suggestion:hover .menu__icone .fas.fa-check-circle{
+    display: block;
+    transition: all 1000ms ease;
+    transform: rotate(-360deg);}
+
 .menu__tarif{
-    text-align: center;
-    width: 60px;
     height: 100%;
-    position: absolute;
-    right: -10px;
+    width: 60px;
+    text-align: center;
     background-color: white;
     font-family: roboto, sans-serif;
     font-weight: bold;
     line-height: 105px;
 }
-
 .menu__icone{
-    color: white;
-    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    height: 100%;
     width: 60px;
     font-size: 30px;
+    background-color: #99e2d0;
     position: absolute;
     right: 0;
-    height: 70px;
-    background-color: #39a98e;
     transform: scalex(0);
     transform-origin: right;
 }
+
 .fas.fa-check-circle{
+    color: white;
     line-height: 70px;
     transform: rotate(0deg);
 }
