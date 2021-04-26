@@ -58,10 +58,33 @@ a{
 #menu{
     width: 90%;
 }
+.resto__identification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 #resto__name{
     font-family: shrikhand, sans-serif;
     font-weight: 900;
 }
+.far.fa-heart{
+    position: absolute;
+    z-index: 1;
+    font-size: 25px;
+}
+.fas.fa-heart{
+    position: relative;
+    opacity: 0;
+    z-index: 2;
+    color:  #ff79da;
+    font-size: 25px;
+    }
+.fas.fa-heart:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+
 .repas__struct{
     font-family: roboto, sans-serif;
     font-weight: lighter;
