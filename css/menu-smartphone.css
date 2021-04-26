@@ -103,18 +103,18 @@ a{
 }
 
 .delay-1{
-    animation: menu-apparition 0.5s;
-
-
-}
-.delay-2{
-    animation: menu-apparition 0.5s;
+    animation: menu-apparition 1s;
     animation-delay: 0.2s;
 
 }
-.delay-3{
-    animation: menu-apparition 0.5s;
+.delay-2{
+    animation: menu-apparition 1s;
     animation-delay: 0.4s;
+
+}
+.delay-3{
+    animation: menu-apparition 1s;
+    animation-delay: 0.6s;
 }
 
 
