@@ -7,7 +7,7 @@
     }
     100%{
         transform: translateY(0);
-    opacity: 1;}
+        opacity: 1;}
 }
 
 
@@ -176,6 +176,9 @@ a{
     display: block;
     transition: all 1000ms ease;
     transform: rotate(-360deg);}
+.suggestion:hover .menu__sug{
+    margin-right: 60px;
+    }
 
 .menu__tarif{
     height: 100%;

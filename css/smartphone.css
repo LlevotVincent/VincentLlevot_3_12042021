@@ -32,7 +32,8 @@ body{
 
 #localisation__text{
     background-color: #eaeaea;
-    border: none;}
+    outline: none;
+    border: none}
 
 
 #localisation__icone{
@@ -67,6 +68,7 @@ body{
     font-family: roboto, sans-serif;
     font-size: 16px;
     text-decoration: none;
+  
     transform: scale(1);
     transition-property: transform;
     transition-duration: 400ms;}
