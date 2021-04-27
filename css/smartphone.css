@@ -3,11 +3,12 @@
 @keyframes loading-spinner {
     0%{
         opacity:1;
-
     }
-
-    90%{
-        opacity:1;
+    70%{
+        opacity: 1;
+    }
+    80%{
+        opacity:0.6;
     }
     100%{
     opacity: 0;
