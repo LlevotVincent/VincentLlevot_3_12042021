@@ -20,15 +20,10 @@
     }
     100%{}
 }
-@keyframes circle-flattened {
-    0%, 20%, 80%, 100% {
-        transform: scale(1);}
-    50% {
-        transform: scale(1.5);}
-    }
+
 @keyframes hearts{
     0%{
-       opacity: 0;}
+       transform: scale(0);}
     50%{
         transform: scale(1.2);}
     100%{
@@ -144,18 +139,15 @@ body{
     border-radius: 50px;
     border: none;
     background: linear-gradient(175deg, #ff79da, #a15adc);
-    box-shadow: 0px 2px 2px 2px #c5c5c5;
+    box-shadow: 0px 4px 4px 4px #c5c5c5;
     color: white;
     font-family: roboto, sans-serif;
     font-size: 16px;
-    text-decoration: none;
-    transform: scale(1);
-    transition-property: transform;
-    transition-duration: 400ms;}
+    text-decoration: none;}
 
-#exploration__btn :hover{
-    transform: scale(1.2);
-
+#exploration__btn:hover{
+    background: linear-gradient(175deg, #f6a1de, #ac75da);
+    box-shadow:  0px 4px 4px 4px #a7a7a7;
 }
     /*fin exploration*/
 
