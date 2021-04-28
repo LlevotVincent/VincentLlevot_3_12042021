@@ -78,14 +78,13 @@ a{
     font-weight: 900;
 }
  /*favoris*/
-.custom-checkbox input[type="checkbox"],
-.custom-checkbox .checked {
+.custom-checkbox input[type="checkbox"],.custom-checkbox .fas.fa-heart {
     display: none;
 }
-.custom-checkbox input[type="checkbox"]:checked~.checked {
+.custom-checkbox input[type="checkbox"]:checked~.fas.fa-heart  {
     display: inline-block;  
 }
-  .custom-checkbox input[type="checkbox"]:checked~.unchecked {
+.custom-checkbox input[type="checkbox"]:checked~.far.fa-heart  {
     display: none;  
 }
 .far.fa-heart{

@@ -1,34 +1,24 @@
 @media screen and (min-width: 1200px){
 
-    #fonct__boxes{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;}
+#fonct__boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;}
     
-        /*fin fonctionnement*/
+    /*fin fonctionnement*/
     
     
-        /*début restaurants*/
+    /*début restaurants*/
     
-    #resto__grille{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;}
-    .resto__box{
-        width: 45%;}
+#resto__grille{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;}
+.resto__box{
+    width: 45%;}
     
-        /*fin restaurants*/
-    
-    }
-
-
-
-
-
-
-
-
+    /*fin restaurants*/
 }
