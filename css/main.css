@@ -16,9 +16,10 @@
 
 @keyframes circle-rotate {
     0%{
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
-    100%{}
+    100%{
+        transform: 360deg;}
 }
 
 @keyframes hearts{
