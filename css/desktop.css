@@ -21,4 +21,21 @@
     width: 45%;}
     
     /*fin restaurants*/
+
+    /*début footer*/
+    
+#footer{
+    z-index: 100;
+    position: absolute;}
+#footer__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+#footer__title{
+    align-self: center;
+    font-size: 24px;}
+        
+    /*fin footer*/
 }
+
