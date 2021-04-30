@@ -1,32 +1,9 @@
 @media screen and (min-width: 768px) and (max-width: 1200px){
 
-@keyframes loading-spinner {
-    0%{
-        opacity:1;
-    }
-    70%{
-        opacity: 1;
-    }
-    80%{
-        opacity:0.6;
-    }
-    100%{
-        opacity: 0;
-        z-index: -999;
-    }
-    }
-    
-    @keyframes circle-rotate {
-        0%{
-            transform: rotate(360deg);
-        }
-        100%{  
-    }
-    }
-    body{
-        margin: 0;
-        width: 90%;
-    }
+
+ body{
+    margin: 0;
+    width: 90%;}
 
 
     /*début fonctionnement*/

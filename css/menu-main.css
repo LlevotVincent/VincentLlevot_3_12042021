@@ -19,6 +19,9 @@
         opacity: 1;}
 }
 
+body{
+    margin: 0;}
+    
     /*debut header*/
 
 #header {
@@ -133,7 +136,9 @@ a{
 .delay-9{
     animation-delay: 2.7s;
 }
-
+.delay-10{
+    animation-delay: 3s;
+}
 .suggestion{
     display: flex;
     background-color: #fff;
